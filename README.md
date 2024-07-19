@@ -88,6 +88,8 @@ Add the following imports and configuration to `env.py`:
 from database import Base
 from models import *
 target_metadata = Base.metadata
+
+USE YOUR OWN USERNAME AND PASSWORD OF DATABASE TO ACCESS THE CORRECT PATH
 ```
 
 ## 7. Verify Connection and Tables
