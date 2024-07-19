@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# FastAPI specific
+*.log
+*.pid
+*.swp
+*.swo
+
+# SQLAlchemy
+alembic/versions/*.pyc
+
+# Migrations
+alembic/versions/*
+
+# pytest
+.cache/
+*.cover
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.coverage.*
+.cache
+coverage.xml
+
+# Environments
+.env
+.env.local
+.env.*.local
+.envrc
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# MyPy
+.mypy_cache/
+
+*.sublime-project
+*.sublime-workspace
+
+# Local settings
+*.DS_Store
+*.vscode/
+*.code-workspace
+
+# System Files
+.DS_Store
+Thumbs.db
